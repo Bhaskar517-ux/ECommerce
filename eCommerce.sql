@@ -48,17 +48,7 @@ CREATE TABLE customers(
         return_date DATE
 
       );
-      
-      CREATE TABLE cart (
-       cart_id INT PRIMARY KEY,
-       order_id INT NOT NULL,
-       product_id INT,
-       quantity INT NOT NULL,
-       discount INT
-    );
-
-
-     CREATE TABLE product_catalog (
+       CREATE TABLE product_catalog (
       product_id INT PRIMARY KEY,
       product_name VARCHAR(50) NOT NULL,
       vendor_id INT NOT NULL,
