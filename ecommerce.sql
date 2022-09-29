@@ -37,14 +37,6 @@ INSERT INTO order_details (order_id,cust_id,payment_id,payment_date,order_date,s
 INSERT INTO order_details (order_id,cust_id,payment_id,payment_date,order_date,ship_date,ship_method,fullfillment_date,cancellation_date,return_date)VALUES(100004,1,104,"2022-3-20","2022-3-20","2022-3-22","ekart","2022-3-24","2022-4-15","2022-4-20");
 INSERT INTO order_details (order_id,cust_id,payment_id,payment_date,order_date,ship_date,ship_method,fullfillment_date,cancellation_date,return_date)VALUES(100005,1,105,"2022-5-20","2022-5-20","2022-5-22","ekart","2022-5-24",NULL,NULL);
 
-
-INSERT INTO cart(cart_id,order_id,product_id,quantity,discount)VALUES(100011,100001,NULL,1,NULL);
-INSERT INTO cart(cart_id,order_id,product_id,quantity,discount)VALUES(100012,100002,NULL,1,NULL);
-INSERT INTO cart(cart_id,order_id,product_id,quantity,discount)VALUES(100013,100003,NULL,1,NULL);
-INSERT INTO cart(cart_id,order_id,product_id,quantity,discount)VALUES(100014,100004,NULL,1,NULL);
-INSERT INTO cart(cart_id,order_id,product_id,quantity,discount)VALUES(100015,100005,NULL,1,NULL);
-INSERT INTO cart(cart_id,order_id,product_id,quantity,discount)VALUES(100016,100006,NULL,1,NULL);
-
 INSERT INTO product_catalog(product_id,product_name,vendor_id,manufacturer_id ,color_id,size_id,unit_id,price_per_unit,weight_per_unit)VALUES(10000000,"Desktop",11015,1,2,1,1,40000,20);
 INSERT INTO product_catalog(product_id,product_name,vendor_id,manufacturer_id ,color_id,size_id,unit_id,price_per_unit,weight_per_unit)VALUES(10000001,"Laptop",11016,1,1,1,2,40000,3);
 INSERT INTO product_catalog(product_id,product_name,vendor_id,manufacturer_id ,color_id,size_id,unit_id,price_per_unit,weight_per_unit)VALUES(10000002,"Laptop",11017,2,1,1,3,80000,3);
