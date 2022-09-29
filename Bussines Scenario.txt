@@ -1,0 +1,43 @@
+Objective
+
+we are making ecommerce website in which we have use my sql and node.js.
+
+The primary goal of ecomerce website is to reach maximum customers at the right time to 
+increase sales and profitablity of the bussiness. functions of ecommerce is buying and selling goods items on ecommerce website.
+
+
+History
+
+In our ecommerce website we have use my sql workbench. The version of  my sql workbench is 8.0.29.
+   
+ SCENARIO
+
+ We create a ecommerce name of database in our my sql workbench . And database is connect with node.js code
+ and we have done backend part.we are performing this on the postman platform. 
+ 
+SOLUTION
+   
+We create table in my sql workbench which we needed at that time and structre of table .
+
+And in node.js we use get,post, put,delete method.
+
+TEST CASE1
+
+GET ALL customers.
+GET ALL customersbyId
+GET all payment.
+GET all payment method.
+GET all address.
+GET all addressbyId.
+GET all productcatlog.
+GET all productname.
+GET all colorId.
+
+TEST CASE2
+
+we have test get,post,put....etc api from postman.
+
+
+
+
+
