@@ -33,6 +33,7 @@ GET all productcatlog.
 GET all productname.
 GET all colorId.
 
+
 TEST CASE2
 
 we have test get,post,put....etc api from postman.
