@@ -1,8 +1,11 @@
+// database connectivity
 var mysql= require('mysql');
+
+//define connection string
 var connection=mysql.createConnection({
     host:'localhost',
     user:'root',
-    password:'mysql123',
+    password:'password',
     database:'ecommerces'
 });
 
