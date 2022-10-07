@@ -1,5 +1,7 @@
 
 
+
+
 var Payments = require('../model/paymentsdal');
 
 exports.getAll = function(req, res) {

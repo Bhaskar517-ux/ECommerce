@@ -1,4 +1,5 @@
 
+
 var Task = require('../model/cateAllPro');
 
 exports.getAll = function(req, res) {

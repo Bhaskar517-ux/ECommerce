@@ -1,3 +1,5 @@
+
+
 INSERT INTO 
 customers(cust_id,first_name,last_name,email,contact_number,adress) VALUES (1,"Nilu", "Patra","nilu@gmail.com", "8637241506", "Gujrat"); 
 INSERT INTO 

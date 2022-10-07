@@ -1,4 +1,5 @@
 
+
 var Delivery = require('../model/deliverydal');
 
 exports.getAll = function(req, res) {

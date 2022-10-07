@@ -1,3 +1,5 @@
+
+
 CREATE DATABASE ECommerce;
 USE ECommerce;
 

@@ -1,5 +1,6 @@
 
 
+
 var sql = require('./db');
 
 var Product=function(products){
