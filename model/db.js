@@ -1,5 +1,3 @@
-
-
 // database connectivity
 var mysql= require('mysql');
 
@@ -7,8 +5,8 @@ var mysql= require('mysql');
 var connection=mysql.createConnection({
     host:'localhost',
     user:'root',
-    password:'password',
-    database:'ecommerces'
+    password:'mysql123',
+    database:'Ecommerces'
 });
 
 connection.connect(function(err){
